@@ -4,7 +4,7 @@ from __future__ import annotations
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_PATH = BASE_DIR / "netflix_titles.csv.csv"
+DATA_PATH = DATA_PATH = BASE_DIR / "netflix_titles.csv"
 ASSETS_DIR = BASE_DIR / "assets"
 LOTTIE_DIR = ASSETS_DIR / "lottie"
 
